@@ -1,0 +1,45 @@
+/* .noti {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    display: flex;
+    max-width: 400px;
+    overflow: hidden;
+    height: 130px;
+    transform: translateY(150%);
+    animation: noti 4s forwards 1 linear;
+    z-index: 9999;
+}
+.noti-title{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0 5px 0;
+}
+.noti-desc{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.noti_image {
+    width: 30%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+@keyframes noti {
+
+    20%,
+    80% {
+        transform: translateY(0);
+        
+    }
+
+    100% {
+        transform: translateY(150%);
+    }
+} */

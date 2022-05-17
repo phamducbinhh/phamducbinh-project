@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./noti.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <title>Đức Bình Mobile</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav id="header_navbar">
+                <div class="nav_logo">
+                    <div class="logo">
+                        <h3>Bình Mobile</h3>
+                    </div>
+                    <div class="logo_dropdown">
+                        <div class="btn-group">
+                            <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Khu Vực
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Hà Nội</a></li>
+                                <li><a class="dropdown-item" href="#">TP Hồ Chí Minh</a></li>
+                                <li><a class="dropdown-item" href="#">TP Hải Phòng</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">TP Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_search">
+                    <div class="nav_bars_mobile">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="nav_icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="nav_input_search">
+                        <input type="text" placeholder="Bạn cần tìm gì">
+
+                        <!-- search history -->
+                        <div class="nav_history_search">
+                            <h3 class="heading_history">
+                                lịch sử tìm kiếm
+                            </h3>
+                            <ul class="history_list">
+                                <li class="history_item">
+                                    <a href="">iphone 13</a>
+                                </li>
+                                <li class="history_item">
+                                    <a href="">iphone 12 pro max</a>
+                                </li>
+                                <li class="history_item">
+                                    <a href="">Laptop Dell</a>
+                                </li>
+                                <li class="history_item">
+                                    <a href="">MacBook pro</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_about">
+                    <ul class="nav_about_link">
+                        <li class="about_link_icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </li>
+                        <li class="about_link_text">
+                            <a href="#">Gọi mua hàng
+                            </a>
+                            <strong>1800.2097</strong>
+                        </li>
+                    </ul>
+                    <ul class="nav_about_link">
+                        <li class="about_link_icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </li>
+                        <li class="about_link_text">
+                            <a href="#">cửa hàng <br>
+                                gần bạn</a>
+
+                        </li>
+                    </ul>
+                    <ul class="nav_about_link about_link_header_qr header_qr_has_code">
+                        <li class="about_link_icon">
+                            <i class="fa-solid fa-truck"></i>
+                        </li>
+                        <li class="about_link_text">
+                            <a href="">tra cứu <br> đơn hàng</a>
+                            <!-- QR CODE -->
+                            <div class="header__qr">
+                                <img src="./cell5/QRcode.png" alt="QRcode" class="header_qr_img">
+                                <div class="qr_download">
+                                    <a href="" class="header_qr_link">
+                                        <img src="./cell5/google-play.png" alt="" class="qr_download_img">
+                                    </a>
+                                    <a href="" class="header_qr_link">
+                                        <img src="./cell5/app-store.png" alt="" class="qr_download_img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="nav_about_link header_cart">
+                        <li class="about_link_icon ">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                        </li>
+                        <li class="about_link_text ">
+                            <a href="#">giỏ hàng</a>
+                            <!-- giỏ hàng đã chọn -->
+                            <div class="header_cart_list">
+                                <!-- <img src="./cell5/nocart_n.png" alt="" class="header_cart_img"> -->
+                                <!-- sản phẩm đã thêm -->
+                                <h4 class="header_cart_heading">sản phẩm đã thêm</h4>
+                                <ul class="header_cart_list_item">
+                                    <li class="header_cart_item">
+                                        <img src="./cell/iphone_13-_pro-5_4.jpg" alt="" class="header_cart_list_img">
+                                        <div class="header_cart_item_info">
+                                            <div class="header_cart_item_head">
+                                                <h5 class="header_cart_item_name">iphone 13 promax 520gb</h5>
+                                                <div class="header_cart_price_all">
+                                                    <span class="header_cart_item_price">30.000.000</span>
+                                                    <span class="header_cart_item_multi">x</span>
+                                                    <span class="header_cart_item_qnt">2</span>
+                                                </div>
+                                            </div><!-- header_cart_item_head -->
+
+                                            <div class="header_cart_item_body">
+                                                <span class="header_cart_item_desc">màu:xanh blue</span>
+                                                <span class="header_cart_item_remove">xóa</span>
+                                            </div>
+                                        </div><!-- header_cart_list_info -->
+
+                                    </li> <!-- header_cart_item -->
+                                    <li class="header_cart_item">
+                                        <img src="./cell/iphone_11_white_4_.png" alt="" class="header_cart_list_img">
+                                        <div class="header_cart_item_info">
+                                            <div class="header_cart_item_head">
+                                                <h5 class="header_cart_item_name">iphone 11 128gb</h5>
+                                                <div class="header_cart_price_all">
+                                                    <span class="header_cart_item_price">12.000.000</span>
+                                                    <span class="header_cart_item_multi">x</span>
+                                                    <span class="header_cart_item_qnt">1</span>
+                                                </div>
+                                            </div><!-- header_cart_item_head -->
+
+                                            <div class="header_cart_item_body">
+                                                <span class="header_cart_item_desc">màu:đỏ</span>
+                                                <span class="header_cart_item_remove">xóa</span>
+                                            </div>
+                                        </div><!-- header_cart_list_info -->
+
+                                    </li> <!-- header_cart_item -->
+                                    <li class="header_cart_item">
+                                        <img src="./cell/mac_air.jpg" alt="" class="header_cart_list_img">
+                                        <div class="header_cart_item_info">
+                                            <div class="header_cart_item_head">
+                                                <h5 class="header_cart_item_name">MacBook pro M1</h5>
+                                                <div class="header_cart_price_all">
+                                                    <span class="header_cart_item_price">29.500.000</span>
+                                                    <span class="header_cart_item_multi">x</span>
+                                                    <span class="header_cart_item_qnt">1</span>
+                                                </div>
+                                            </div><!-- header_cart_item_head -->
+
+                                            <div class="header_cart_item_body">
+                                                <span class="header_cart_item_desc">phân loại sản phẩm</span>
+                                                <span class="header_cart_item_remove">xóa</span>
+                                            </div>
+                                        </div><!-- header_cart_list_info -->
+
+                                    </li> <!-- header_cart_item -->
+                                    <li class="header_cart_item">
+                                        <img src="./cell/airpod-3.jpg" alt="" class="header_cart_list_img">
+                                        <div class="header_cart_item_info">
+                                            <div class="header_cart_item_head">
+                                                <h5 class="header_cart_item_name">tai nghe airpod2 chính hãng</h5>
+                                                <div class="header_cart_price_all">
+                                                    <span class="header_cart_item_price">5.400.000</span>
+                                                    <span class="header_cart_item_multi">x</span>
+                                                    <span class="header_cart_item_qnt">3</span>
+                                                </div>
+                                            </div><!-- header_cart_item_head -->
+
+                                            <div class="header_cart_item_body">
+                                                <span class="header_cart_item_desc">Màu:Vàng</span>
+                                                <span class="header_cart_item_remove">xóa</span>
+                                            </div>
+                                        </div><!-- header_cart_list_info -->
+
+                                    </li> <!-- header_cart_item -->
+                                    <li class="header_cart_item">
+                                        <img src="./cell/sm-a536_galaxy_a53_5g_awesome_peach004.jpg" alt=""
+                                            class="header_cart_list_img">
+                                        <div class="header_cart_item_info">
+                                            <div class="header_cart_item_head">
+                                                <h5 class="header_cart_item_name">samsung galaxy A53</h5>
+                                                <div class="header_cart_price_all">
+                                                    <span class="header_cart_item_price">12.000.000</span>
+                                                    <span class="header_cart_item_multi">x</span>
+                                                    <span class="header_cart_item_qnt">2</span>
+                                                </div>
+                                            </div><!-- header_cart_item_head -->
+
+                                            <div class="header_cart_item_body">
+                                                <span class="header_cart_item_desc">Màu:Vàng</span>
+                                                <span class="header_cart_item_remove">xóa</span>
+                                            </div>
+                                        </div><!-- header_cart_list_info -->
+
+                                    </li> <!-- header_cart_item -->
+                                </ul> <!-- header_cart_list_item -->
+                                <div class="header_input_add">
+                                    <input type="submit" value="xem giỏ hàng">
+                                </div> <!-- header_input_add -->
+                            </div> <!-- header_cart_list -->
+                        </li>
+                    </ul>
+                    <ul class="nav_about_link about_user_link smember">
+                        <li class="about_link_icon">
+                            <i class="fa-solid fa-user"></i>
+                        </li>
+                        <li class="about_link_text">
+                            <a href="#">Đăng Ký</a>
+                            <div class="header_about_user">
+                                <div class="about_user_title">
+                                    <div class="about_user_title_left">
+                                        <p>Xin Chào</p>
+                                        <span>PhạmBình</span>
+                                    </div>
+                                    <div class="about_user_title_right">
+                                        <P>đăng xuất</P>
+                                    </div>
+                                </div>
+
+                                <!-- login đăng ký -->
+                                <ul class="about_user_product_list">
+                                    <li class="user_list_item"><a href="#">tài khoản của tôi</a></li>
+                                    <li class="user_list_item"><a href="#">hàng đã mua</a></li>
+                                    <li class="user_list_item"><a href="#">hàng đã thích</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- nav_about -->
+        </div>
+        </nav>
+        </div>
+    </header>
+    <!-- header -->
+    <section id="banner">
+        <div class="container">
+            <div class="banner_item">
+                <div class="banner_item_list">
+                    <ui class="list_menu">
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                    <span>điện thoại</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-laptop"></i>
+                                    <span>laptop</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-tablet"></i>
+                                    <span>tablet</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-headphones"></i>
+                                    <span>âm thanh</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <span>đồng hồ</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span> nhà thông minh</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-charging-station"></i>
+                                    <span>phụ kiện</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-tv"></i>
+                                    <span>TV</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-bullhorn"></i>
+                                    <span>khuyến mại</span>
+                                </div>
+
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-mobile-button"></i>
+                                    <span>hàng cũ</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                        <li class="item_menu"><a href="">
+                                <div class="item_icon1">
+                                    <i class="fa-solid fa-newspaper"></i>
+                                    <span>tin công nghệ</span>
+                                </div>
+                                <div class="item_icon2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </a></li>
+                    </ui>
+                </div>
+                <!-- banner_item_list -->
+                <div class="banner_item_slider">
+                    <div class="banner_img_slider">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./cell/CPS_690x300_April.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./cell/iPhone_11_home.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./cell/watch_s1_active.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="banner_swipper">
+                        <ul>
+                            <li class="swipper_item">
+                                <p>Iphone</p>
+                                <small>giảm giá sâu sốc!</small>
+
+
+                            </li>
+                            <li class="swipper_item">
+                                <p>Iphone13</p>
+                                <small> Khuyến mại hấp dẫn!</small>
+
+                            </li>
+                            <li class="swipper_item">
+                                <p>galaxy s22 series</p>
+                                <small>ưu đãi hấp dẫn!</small>
+
+                            </li>
+                            <li class="swipper_item">
+                                <p>phụ kiện iphone</p>
+                                <small> mua nhiều giảm sốc!</small>
+
+                            </li>
+                            <li class="swipper_item">
+                                <p>Tuần lễ huawei</p>
+                                <small>sale sập sàn!</small>
+
+                            </li>
+                        </ul>
+                    </div><!-- banner_swipper -->
+                </div><!-- banner_item_slider -->
+                <div class="banner_item_link">
+                    <div class="banner_item_link_img">
+                        <a href="">
+                            <img src="./cell/note_20_ultra.png" alt="">
+                        </a>
+                    </div>
+                    <div class="banner_item_link_img">
+                        <a href="">
+                            <img src="./cell/Right_banner_1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="banner_item_link_img">
+                        <a href=""><img src="./cell/Right_banner_AW.png" alt=""></a>
+                    </div>
+                </div><!-- banner_item_link -->
+            </div><!-- banner_item -->
+
+            <div class="banner_media">
+                <a href="#"> <img src="./cell/Special_banner_Desktop.png" alt=""></a>
+            </div><!-- banner_media -->
+
+        </div>
+    </section>
+    <!-- banner -->
+
+    <section id="content">
+        <div class="container">
+            <div class="content">
+                <div class="box_tab_content">
+                    <input type="submit" value="Điện thoại & laptop">
+                    <input type="submit" value="Phụ kiện">
+                </div>
+                <div class="box_tab_title">
+                    <img src="./cell/sale.png" alt="">
+                </div>
+                <div class="content_product">
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/yellow_final_2.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 42%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy Note 20 Ultra 5G</p>
+                        </div>
+                        <div class="card_price">
+                            <p>18.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>20 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/sm-g990_s21fe_backfront_lv.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 26%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy S21 FE 5G (6GB - 128GB)</p>
+                        </div>
+                        <div class="card_price">
+                            <p>11.600.000 đ</p>
+                            <span>15.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>15 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/sm-a536_galaxy_a53_5g_awesome_peach004.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 10%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy A23</p>
+                        </div>
+                        <div class="card_price">
+                            <p>5.100.000 đ</p>
+                            <span>6.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/800x800_flip_3_cream.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 21%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy Z Flip3 5G</p>
+                        </div>
+                        <div class="card_price">
+                            <p>19.599.000 đ</p>
+                            <span>24.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>8 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card card_mobile">
+                        <div class="card_img">
+                            <img src="./cell/04_2_4.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 20%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy A52s 5G</p>
+                        </div>
+                        <div class="card_price">
+                            <p>8.999.000 đ</p>
+                            <span>10.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- content -->
+            <!-- dien thoai -->
+            <div class="box_content">
+                <div class="box_title">
+                    <div class="box_title_new">
+                        <a href="">
+                            <h2>Điện thoại nổi bật nhất</h2>
+                        </a>
+                    </div>
+                    <div class="box_title_tag">
+                        <div class="box_title_list_tag">
+                            <ul>
+                                <li><a href="">Reno7 Z</a></li>
+                                <li><a href="">Apple</a></li>
+                                <li><a href="">Samsung</a></li>
+                                <li><a href="">Xiaomi</a></li>
+                                <li><a href="">Nokia</a></li>
+                                <li><a href="">OPPO</a></li>
+                                <li><a href="">Realme</a></li>
+                                <li><a href="">ASUS</a></li>
+                                <li><a href="">Vivo</a></li>
+                                <li><a href="">Xem tất cả</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/iphone_11_white_4_.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 33%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPhone 11 64GB I Chính hãng VN/A </p>
+                        </div>
+                        <div class="card_price">
+                            <p>11.999.000 đ</p>
+                            <span>18.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/iphone_13-_pro-5_4.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 14%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPhone 13 Pro Max 128GB | Chính hãng VN/A</p>
+                        </div>
+                        <div class="card_price">
+                            <p>28.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/iphone-se-red-select-20220322.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 3%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPhone SE 2022 | Chính hãng VN/A</p>
+                        </div>
+                        <div class="card_price">
+                            <p>12.999.000 đ</p>
+                            <span>14.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/800x800-1-640x640-5_2.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Xiaomi Redmi Note 11</p>
+                        </div>
+                        <div class="card_price">
+                            <p>4.999.000 đ</p>
+                            <span>5.500.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>2 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 12%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy S22 Ultra (8GB - 128GB)</p>
+                        </div>
+                        <div class="card_price">
+                            <p>30.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>5 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/iphone_11_white_4_.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 33%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPhone 11 64GB I Chính hãng VN/A </p>
+                        </div>
+                        <div class="card_price">
+                            <p>11.999.000 đ</p>
+                            <span>18.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/iphone_13-_pro-5_4.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 14%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPhone 13 Pro Max 128GB | Chính hãng VN/A</p>
+                        </div>
+                        <div class="card_price">
+                            <p>28.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/iphone-se-red-select-20220322.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 3%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPhone SE 2022 | Chính hãng VN/A</p>
+                        </div>
+                        <div class="card_price">
+                            <p>12.999.000 đ</p>
+                            <span>14.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/800x800-1-640x640-5_2.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Xiaomi Redmi Note 11</p>
+                        </div>
+                        <div class="card_price">
+                            <p>4.999.000 đ</p>
+                            <span>5.500.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>2 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 12%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy S22 Ultra (8GB - 128GB)</p>
+                        </div>
+                        <div class="card_price">
+                            <p>30.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>5 đánh giá</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- laptop -->
+            <div class="box_content">
+                <div class="box_title">
+                    <div class="box_title_new">
+                        <a href="">
+                            <h2>laptop</h2>
+                        </a>
+                    </div>
+                    <div class="box_title_tag">
+                        <div class="box_title_list_tag">
+                            <ul>
+                                <li><a href="">Thinkpad</a></li>
+                                <li><a href="">Mac Studio</a></li>
+                                <li><a href="">Studio Display</a></li>
+                                <li><a href="">Mac</a></li>
+                                <li><a href="">ASUS</a></li>
+                                <li><a href="">HP</a></li>
+                                <li><a href="">Microsoft Surface</a></li>
+                                <li><a href="">Acer</a></li>
+                                <li><a href="">Dell</a></li>
+                                <li><a href="">Xem tất cả</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/18_2_29.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 33%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Asus Vivobook 13 Slate Oled T3300KA</p>
+                        </div>
+                        <div class="card_price">
+                            <p>11.999.000 đ</p>
+                            <span>18.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/2_64_37.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 14%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Asus Gaming Rog Strix G15 G513IH HN015W</p>
+                        </div>
+                        <div class="card_price">
+                            <p>28.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/36_1_21.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 3%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Fujitsu UH X 9U13A2 4ZR1G97610
+                            <p>
+                        </div>
+                        <div class="card_price">
+                            <p>12.999.000 đ</p>
+                            <span>14.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/24_51.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Dell Insprion 14 5406-3661SLV Nhập khẩu chính hãng</p>
+                        </div>
+                        <div class="card_price">
+                            <p>4.999.000 đ</p>
+                            <span>5.500.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>2 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/mbp-silver-select-202011-spa.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 12%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Apple MacBook Pro 13 Touch Bar M1 256GB 2020 I Chính hãng Apple Việt Nam</p>
+                        </div>
+                        <div class="card_price">
+                            <p>30.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>5 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/mac_air.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 33%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Apple MacBook Air M1 256GB 2020 Chính hãng Apple Việt Nam </p>
+                        </div>
+                        <div class="card_price">
+                            <p>11.999.000 đ</p>
+                            <span>18.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/18_2_29.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 14%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Asus Vivobook 13 Slate Oled T3300KA</p>
+                        </div>
+                        <div class="card_price">
+                            <p>28.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/2_64_37.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 3%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Asus Gaming Rog Strix G15 G513IH HN015W</p>
+                        </div>
+                        <div class="card_price">
+                            <p>12.999.000 đ</p>
+                            <span>14.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/36_1_21.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Fujitsu UH X 9U13A2 4ZR1G97610</p>
+                        </div>
+                        <div class="card_price">
+                            <p>4.999.000 đ</p>
+                            <span>5.500.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>2 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/24_51.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 12%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Laptop Dell Insprion 14 5406-3661SLV Nhập khẩu chính hãng</p>
+                        </div>
+                        <div class="card_price">
+                            <p>30.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>5 đánh giá</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- man hinh may tinh -->
+            <div class="box_content">
+                <div class="box_title">
+                    <div class="box_title_new">
+                        <a href="">
+                            <h2>Màn hình, Máy tính để bàn</h2>
+                        </a>
+                    </div>
+                    <div class="box_title_tag">
+                        <div class="box_title_list_tag">
+                            <ul>
+                                <li><a href="">Máy tính bàn</a></li>
+                                <li><a href="">Dell</a></li>
+                                <li><a href="">HP</a></li>
+                                <li><a href="">ASUS</a></li>
+                                <li><a href="">LG</a></li>
+                                <li><a href="">Samsung</a></li>
+                                <li><a href="">Đồng bộ </a></li>
+                                <li><a href="">Xem tất cả</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/apple_studio_display_2022_co_chan_de_1.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 3%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Apple Studio Display 27 5K Chân đế cố định 2022 chính hãng </p>
+                        </div>
+                        <div class="card_price">
+                            <p>43.999.000 đ</p>
+                            <span>44.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/man-hinh-huawei-mateview-28-inch-001.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 14%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Màn hình đồ hoạ HUAWEI MateView 28</p>
+                        </div>
+                        <div class="card_price">
+                            <p>28.999.000 đ</p>
+                            <span>32.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/man-hinh-xiaomi-monitor-1c-23-8-inch-bhr4510gl-thumb.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 3%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Màn hình Xiaomi Monitor 1C 23.8 inch BHR4510gl</p>
+                        </div>
+                        <div class="card_price">
+                            <p>2.999.000 đ</p>
+                            <span>4.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-1.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Giá treo màn hình máy tính North Bayou NB-F80</p>
+                        </div>
+                        <div class="card_price">
+                            <p>499.000 đ</p>
+                            <span>800.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>2 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card card_mobile">
+                        <div class="card_img">
+                            <img src="./cell/man-hinh-samsung-27-inch-ls27am500nexxv-1.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Màn hình thông minh Samsung 27 inch LS27AM500NEXXV</p>
+                        </div>
+                        <div class="card_price">
+                            <p>4.999.000 đ</p>
+                            <span>6.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>5 đánh giá</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tablet -->
+            <div class="box_content">
+                <div class="box_title">
+                    <div class="box_title_new">
+                        <a href="">
+                            <h2>Tablet</h2>
+                        </a>
+                    </div>
+                    <div class="box_title_tag">
+                        <div class="box_title_list_tag">
+                            <ul>
+                                <li><a href="">iPad Air 5</a></li>
+                                <li><a href="">iPad Air</a></li>
+                                <li><a href="">iPad Pro</a></li>
+                                <li><a href="">iPad</a></li>
+                                <li><a href="">Samsung</a></li>
+                                <li><a href="">Xiaomi</a></li>
+                                <li><a href="">Xem tất cả</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/tab_s8_ultra.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 23%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy Tab S8 Ultra</p>
+                        </div>
+                        <div class="card_price">
+                            <p>28.999.000 đ</p>
+                            <span>33.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/ipad-10-2-2021-4_2.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 14%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPad 10.2 2021 WiFi 64GB | Chính hãng Apple Việt Nam</p>
+                        </div>
+                        <div class="card_price">
+                            <p>10.399.000 đ</p>
+                            <span>12.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/apple_ipad_pro_11_2021_m1_wifi_128gb.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 18%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Apple iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam </p>
+                        </div>
+                        <div class="card_price">
+                            <p>19.999.000 đ</p>
+                            <span>24.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/2_39.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>iPad Air 5 (2022) 64GB I Chính hãng Apple Việt Nam</p>
+                        </div>
+                        <div class="card_price">
+                            <p>15.499.000 đ</p>
+                            <span>18.800.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>2 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card card_mobile">
+                        <div class="card_img">
+                            <img src="./cell/ipad-mini-6.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Xiaomi Pad 5 (6GB/256GB)</p>
+                        </div>
+                        <div class="card_price">
+                            <p>9.999.000 đ</p>
+                            <span>10.700.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>5 đánh giá</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- dong ho thong minh -->
+            <div class="box_content">
+                <div class="box_title">
+                    <div class="box_title_new">
+                        <a href="">
+                            <h2>Đồng hồ thông minh</h2>
+                        </a>
+                    </div>
+                    <div class="box_title_tag">
+                        <div class="box_title_list_tag">
+                            <ul>
+                                <li><a href="">Series 7</a></li>
+                                <li><a href="">Apple Watch</a></li>
+                                <li><a href="">Samsung</a></li>
+                                <li><a href="">Garmin</a></li>
+                                <li><a href="">Xiaomi</a></li>
+                                <li><a href="">Amazfit</a></li>
+                                <li><a href="">Huawei</a></li>
+                                <li><a href="">Đồng hồ định vị trẻ em </a></li>
+                                <li><a href="">Xem tất cả</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/dong-ho-thong-minh-samsung-galaxy-watch-3_2.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 23%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Đồng hồ thông minh Huawei Watch GT3 dây da</p>
+                        </div>
+                        <div class="card_price">
+                            <p>5.999.000 đ</p>
+                            <span>6.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/dong-ho-thong-minh-xiaomi-mi-wat.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 14%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Đồng hồ thông minh Xiaomi Mi Watch</p>
+                        </div>
+                        <div class="card_price">
+                            <p>1.399.000 đ</p>
+                            <span>2.000.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>21 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/galaxy-fit2-scarlet-3-removebg-preview.png" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 18%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Vòng đeo tay thông minh Samsung Galaxy Fit 2</p>
+                        </div>
+                        <div class="card_price">
+                            <p>529.000 đ</p>
+                            <span>600.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>12 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card">
+                        <div class="card_img">
+                            <img src="./cell/sm-r870_003_1.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Samsung Galaxy Watch4 </p>
+                        </div>
+                        <div class="card_price">
+                            <p>4.499.000 đ</p>
+                            <span>5.800.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>2 đánh giá</small>
+                        </div>
+                    </div>
+                    <div class="content_product_card card_mobile">
+                        <div class="card_img">
+                            <img src="./cell/watch_3_leather.jpg" alt="">
+                        </div>
+                        <div class="card_sticker">
+                            <p>giảm giá 5%</p>
+                        </div>
+                        <div class="card_name">
+                            <p>Đồng hồ thông minh Huawei Watch GT3 dây da</p>
+                        </div>
+                        <div class="card_price">
+                            <p>6.999.000 đ</p>
+                            <span>7.700.000 đ</span>
+                        </div>
+                        <div class="card_icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <small>9 đánh giá</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- phu kien dien thoai -->
+            <div class="box_content">
+                <div class="box_title">
+                    <div class="box_title_new">
+                        <a href="">
+                            <h2>phụ kiện</h2>
+                        </a>
+                    </div>
+                    <div class="box_title_all">
+                        <a href="#">
+                            <p>xem tất cả</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="box_list_cate">
+                    <div class="box_list_cate_item">
+                        <a href="#">ốp lưng</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">usb</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">cáp sạc</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">pin dự phòng</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">độc quyền</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">phụ kiện apple</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">thiết bị mạng</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">chuột,bàn phím</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">dán màn hình</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">camera</a>
+                    </div>
+
+                    <div class="box_list_cate_item">
+                        <a href="#">phụ kiện laptop</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">game,gear</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">phụ kiện cũ</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">balo túi xách</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">dây đeo đồng hồ</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">ổ cứng di động</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">quạt mini</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">phụ kiện chụp ảnh</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">dây đeo airtag</a>
+                    </div>
+                    <div class="box_list_cate_item">
+                        <a href="#">apple care</a>
+                    </div>
+                </div>
+            </div>
+            <!-- phu kien laptop -->
+            <div class="box_content">
+                <div class="box_title">
+                    <div class="box_title_new">
+                        <a href="">
+                            <h2>linh kiện máy tính</h2>
+                        </a>
+                    </div>
+                    <div class="box_title_all">
+                        <a href="#">
+                            <p>xem tất cả</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="box_list_pc">
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">mainboard</a>
+                    </div>
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">nguồn máy tính psu</a>
+                    </div>
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">case</a>
+                    </div>
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">CPU</a>
+                    </div>
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">quạt tản </a>
+                    </div>
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">RAM</a>
+                    </div>
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">ổ cứng SSD</a>
+                    </div>
+                    <div class="box_list_cate_item" id="list_pc">
+                        <a href="#">card màn hình-VGA</a>
+                    </div>
+                </div>
+            </div>
+            <!-- chuyen trang thuong hieu -->
+            <div class="box_content">
+                <div class="box_title_new">
+                    <a href="">
+                        <h2>chuyên trang thương hiệu</h2>
+                    </a>
+                </div>
+
+                <div class="box_list_paper">
+                    <a href="#" class="list_paper_item">
+                        <img src="./cell5/banner-sis-apple-homepage.png" alt="">
+                    </a>
+                    <a href="#" class="list_paper_item">
+                        <img src="./cell5/banner-sis-samsung-homepage.png" alt="">
+                    </a>
+                    <a href="#" class="list_paper_item">
+                        <img src="./cell5/banner-sis-asus-homepage.png" alt="">
+                    </a>
+                    <a href="#" class="list_paper_item">
+                        <img src="./cell5/banner-sis-xiaomi-homepage.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="gallery_slider_all">
+                <div class="box_title_new">
+                    <a href="">
+                        <h2>một số hình ảnh khách hàng tại cửa hàng</h2>
+                    </a>
+                </div>
+                <div class="gallery_slider_item">
+                    <div class="gallery_card">
+                        <img src="https://icdn.dantri.com.vn/thumb_w/640/2019/01/26/5025987618559517945505056636847421584310272-n-1548470791893.jpg"
+                            alt="">
+                    </div>
+                    <div class="gallery_card">
+                        <img src="https://ontop.vn/wp-content/uploads/2021/09/ontop.vn-Apple_iPhone-iPad-Availability_Beijing-Customer-Comparing-iPhone-13_09242021.jpg"
+                            alt="">
+                    </div>
+                    <div class="gallery_card">
+                        <img src="https://photo-cms-bizlive.zadn.vn/460x306/Uploaded/2022/athlragunz_ci/2021_10_22/fpt-shop-iphone-13-moban-71_IQPS.jpg"
+                            alt="">
+                    </div>
+                    <div class="gallery_card">
+                        <img src="https://didongviet.vn/tin-tuc/wp-content/uploads/2021/11/DSC08214-1024x683.jpg"
+                            alt="">
+                    </div>
+                    <div class="gallery_card">
+                        <img src="https://nld.mediacdn.vn/291774122806476800/2021/10/22/img6053-16348803538631713413829.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact">
+                <div class="row">
+                    <div class="col">
+                        <div class="contact_find">
+                            <p class="find">Tìm cửa hàng</p>
+                            <a href="#" class="find1">tìm cửa hàng gần nhẩt</a>
+                            <a href="#" class="find1">mua hàng từ xa</a>
+                            <a href="#" id="find3">Gặp trực tiếp cửa hàng gần nhất (Zalo hoặc gọi điện)</a>
+                        </div>
+                        <div class="contact_pttt">
+                            <p class="find">Phương thức thanh toán</p>
+                            <div class="payment">
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="contact_find">
+                            <a href="#" class="find1">Gọi mua hàng: <strong>1800.2097</strong> (8h00 - 22h00)</a>
+                            <a href="#" class="find1">Gọi khiếu nại: <strong>1800.2063</strong> (8h00 - 21h30)</a>
+                            <a href="#" class="find1">Gọi bảo hành: <strong>1800.2064 </strong>(8h00 - 21h00)
+                            </a>
+                        </div>
+                        <div class="contact_pttt">
+                            <p class="find">Đối tác dịch vụ bảo hành</p>
+                            <a href="" class="find1">Điện Thoại - Máy tính</a>
+                            <div class="icon_dtv">
+
+                            </div>
+                        </div>
+                        <div class="contact_pttt">
+                            <p class="find">Trung tâm bảo hành uỷ quyền Apple</p>
+                            <img src="./cell/logo_dtv-asp.png" alt="" class="logo_dtv">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact_find">
+                            <a href="#" id="find3">Mua hàng và thanh toán Online</a>
+                            <a href="#" class="find1"> Dịch vụ bảo hành điện thoại</a>
+                            <a href="#" class="find1">Tra thông tin đơn hàng</a>
+                            <a href="#" class="find1">Mua hàng trả góp Online</a>
+                            <a href="#" class="find1">Tra điểm Smember</a>
+                            <a href="#" class="find1">
+                                Tra thông tin bảo hành
+                            </a>
+                            <a href="#" class="find1">
+                                Tra cứu hoá đơn điện tử
+                            </a>
+                            <a href="#" class="find1">
+                                Trung tâm bảo hành chính hãng
+                            </a>
+                            <a href="#" class="find1">
+                                Quy định về việc sao lưu dữ liệu
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact_find">
+                            <a href="" class="find1">
+                                Quy chế hoạt động
+                            </a>
+                            <a href="" class="find1">
+                                Chính sách Bảo hành
+                            </a>
+                            <a href="" class="find1">
+                                Liên hệ hợp tác kinh doanh
+                            </a>
+                            <a href="" class="find1">Đơn Doanh nghiệp</a>
+                            <a href="" id="find3">
+                                Ưu đãi từ đối tác
+                            </a>
+                            <a href="" id="find3">
+                                Tuyển dụng
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+
+    <footer>
+        <div class="container">
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="box_footer">
+                            <a href="#">Điện thoại giá rẻ -</a>
+                            <a href="#">
+                                Máy tính bảng giá rẻ -
+                            </a>
+                            <a href="#">
+                                Samsung Galaxy S22 Ultra
+                            </a>
+                            <br>
+                            <a href="#">Điện thoại iPhone 13-</a>
+                            <a href="#">
+                                Điện thoại iPhone 12-
+                            </a>
+                            <a href="#">Điện thoại iPhone 11</a>
+                            <br>
+                            <a href="#">
+                                Điện thoại iPhone 8 Plus-
+                            </a>
+                            <a href="#">
+                                Điện thoại iPhone 7 Plus-
+                            </a>
+                            <a href="#">Điện thoại iPhone 6</a>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="box_footer">
+                            <a href="#">Laptop -</a>
+                            <a href="#">
+                                Laptop HP-
+                            </a>
+                            <a href="#">
+                                Laptop Dell
+                            </a>
+                            <br>
+                            <a href="#">Máy tính để bàn-</a>
+                            <a href="#">
+                                Màn hình máy tính-
+                            </a>
+                            <a href="#">Laptop Lenovo</a>
+                            <br>
+                            <a href="#">
+                                Apple Watch Series 7-
+                            </a>
+                            <a href="#">
+                                Camera-
+                            </a>
+                            <a href="#">Camera hành trình</a>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="box_footer">
+                            <a href="#">Điện thoại iPhone-</a>
+                            <a href="#">Điện thoại Samsung-</a>
+                            <a href="#">Điện thoại Xiaomi</a><br>
+                            <a href="#">
+                                Điện thoại OPPO-
+                            </a>
+                            <a href="#">Điện thoại Vivo-</a>
+                            <a href="#">Điện thoại Nokia</a><br>
+                            <a href="#">Samsung Galaxy Tab S8 Ultra-</a>
+                            <a href="#">Xiaomi Redmi Note 11 Pro</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="row">
+                    <p class="footer_bottom_text">
+                        Công ty TNHH Thương mại và dịch vụ kỹ thuật ĐỨC BÌNH MOBILE - GPĐKKD: 097778448 do sở KH & ĐT
+                        TP. HN cấp ngày 02/03/2020. Địa chỉ: HH4A Linh Đàm ,Phường Hoàng Liệt,Quận Hoàng Mai,Thành phố
+                        Hà Nội, Việt Nam. Điện thoại: 0977.789.448
+                    </p>
+
+                    <!-- <div class="footer_about">
+                        <img src="./cell/logoSaleNoti.png" alt="">
+
+                        <img src="./cell/dmca_copyright_protected150c.png" alt="">
+                        <p>© 2020 Bản quyền thuộc về Phạm Đức Bình</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer_active">
+            <a href="#" class="footer_active_item">
+                <img src="./cell5/zalo-icon-2.png" alt="" class="footer_active_img">
+            </a>
+        </div>
+    </footer><!-- footer -->
+
+    <!-- modal  dang ky dang nhap-->
+    <div class="modal hide">
+        <div class="modal-overlay">
+            <div class="modal-content ">
+                <span class="modal-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </span>
+                <div class="modal-main">
+                    <div class="modal_dangky">
+                        <h3>Đăng ký tài khoản </h3>
+
+                        <a href="#" class="btn btn-social btn-facebook"><i class="fa-brands fa-facebook"></i> Sign in
+                            with Facebook</a>
+
+                        <a href="#" class="btn btn-social btn-twitter"><i class="fa-brands fa-twitter"></i> Sign in with
+                            Twitter</a>
+
+                        <a href="#" class="btn btn-social btn-google">
+                            <i class="fa-brands fa-google"></i> Sign in with Google</a>
+
+                        <a href="#" class="btn btn-social btn-linkedin">
+                            <i class="fa-brands fa-instagram"></i> Sign in with Linkedin</a>
+                    </div>
+                    <div class="modal_dangnhap">
+                        <h4>
+                            Đức Bình Mobile
+                        </h4>
+                        <input type="text" placeholder="username" id="name" name="name">
+                        <input type="text" placeholder="email" id="email" name="email">
+                        <input type="password" placeholder="password" id="password" name=" password">
+                        <input type="password" placeholder="Nhập lại mật khẩu" id="password2" name=" password2">
+                        <button id=" button">Đăng Ký</button>
+                        <div class="end_modal">
+                            <button id="close">
+                                close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- show slider -->
+    <div class="gallery_show_all">
+            <div class="gallery_inner">
+                <i class="fa-solid fa-xmark close"></i>
+                <i class="fas fa-chevron-left prev"></i>
+                <img src="https://icdn.dantri.com.vn/thumb_w/640/2019/01/26/5025987618559517945505056636847421584310272-n-1548470791893.jpg"
+                    alt="">
+                <i class="fas fa-chevron-right next"></i>
+            </div>
+    </div v>
+
+    <!-- menu-show -->
+    <ul class="menu">
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">Trang chủ</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">điện thoại</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">tablet</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">phụ kiện</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">sửa chữa</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">unlock</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">tin tức</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">liên hệ</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">diễn đàn</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_item_link">tra cứu bảo hành</a>
+        </li>
+    </ul>
+</body>
+<script src="./index.js"></script>
+<!-- <script src="./noti.js"></script> -->
+<script src="./Menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
